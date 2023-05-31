@@ -2702,7 +2702,7 @@ switch(id) {
         new WIN("(link)[../test/test.html]", "(icon)[../resources/test.svg]", "(title)[Terbium Test]", "(browser)[false]", "(os)[true]", "(fullscreen)[false]", "(appName)[test]", "(controls)[minClose]", "(text)[test]");
         break;
     case "games":
-        new WIN("(link)[../games/games.html]", "(icon)[../resources/games.png]", "(title)[Game Center]", "(browser)[false]", "(os)[true]", "(fullscreen)[false]", "(appName)[games]", "(controls)[all]");
+        new WIN("(link)[../games/games.html]", "(icon)[../resources/game.svg]", "(title)[Game Center]", "(browser)[false]", "(os)[true]", "(fullscreen)[false]", "(appName)[games]", "(controls)[all]");
         break;
     case "bruhprox":
         new WIN("(link)[https://bruhprox.pages.dev]", "(icon)[../resources/bruhprox.png]", "(title)[BruhProx]", "(browser)[false]", "(os)[true]", "(fullscreen)[false]", "(appName)[bruhprox]", "(controls)[all]");
