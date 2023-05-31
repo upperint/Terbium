@@ -2771,7 +2771,7 @@ switch(id) {
     case "feedback":
         new WIN("(link)[https://forms.gle/qiJ5BEPKWsMZnz2A9]", "(icon)[../resources/terbium.png]", "(title)[Terbium Feedback]", "(browser)[false]", "(os)[true]", "(fullscreen)[false]", "(appName)[feedback]", "(controls)[all]");
         break;
-        case "ruffle":
+    case "ruffle-beta":
             new WIN("../ruffle/beta/ruffle.html", "../resources/ruffle.svg", "Ruffle (Beta)", "()[true]", "(full)[false]", "()[ruffle-beta]");
             break;
     default: 
