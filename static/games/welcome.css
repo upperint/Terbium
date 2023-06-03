@@ -5,17 +5,17 @@ body {
     margin: 0;
     padding: 20px;
   }
-
+  
   h1 {
     margin-bottom: 20px;
   }
-
+  
   .grid-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 20px;
   }
-
+  
   .game-card {
     background-color: #333;
     padding: 20px;
@@ -24,13 +24,25 @@ body {
     transition: transform 0.3s ease;
     cursor: pointer;
   }
-
+  
   .game-card:hover {
     transform: scale(1.05);
   }
-
+  
   .game-card img {
     max-width: 100%;
     height: auto;
     border-radius: 8px;
   }
+  
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  a.modern-white-text {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
