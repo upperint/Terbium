@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <base href="../">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Terbium Game Center</title>
+  <link rel="shortcut icon" href="../terbium.png" type="image/x-icon">
+  <link rel="stylesheet" href="../styles/cursors.css">
+  <meta property="og:image" content="../terbium.png">
+  <meta name="description" content="The Official Terbium Changelog!" />
+  <meta name="theme-color" content="#4cb05e">
+  <style>
+    body {
+      background-color: #222;
+      color: #fff;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h1 {
+      margin-bottom: 20px;
+    }
+
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 20px;
+    }
+
+    .game-card {
+      background-color: #333;
+      padding: 20px;
+      border-radius: 8px;
+      text-align: center;
+      transition: transform 0.3s ease;
+      cursor: pointer;
+    }
+
+    .game-card:hover {
+      transform: scale(1.05);
+    }
+
+    .game-card img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+
+    .game-iframe {
+      width: 100%;
+      height: 400px;
+      border: none;
+    }
+  </style>
+</head>
+<body>
+  <h1>Select a Version</h1>
+
+  <div class="grid-container">
+    <div class="game-card" onclick="openGame('gameengine.html?game=https://eaglercraftx.pages.dev')">
+      <img src="pages/game1.jpg" alt="Game 1">
+      <h3>EaglercraftX</h3>
+      <p>Play Minecraft 1.8.8 in your Browser!</p>
+    </div>
+    <div class="game-card" onclick="openGame('gameengine.html?game=https://eaglercraft.pages.dev/')">
+      <img src="pages/game1.jpg" alt="Game 2">
+      <h3>EaglerCraft</h3>
+      <p>Play Minecraft 1.5.2 in your Browser!</p>
+    </div>
+    <div class="game-card" onclick="openGame('gameengine.html?game=https://precisionclient-88k.pages.dev/')">
+      <img src="pages/game1.jpg" alt="Game 3">
+      <h3>Precision Client</h3>
+      <p>A modded Version of the regular Eaglercraft</p>
+    </div>
+  </div>
+
+  <h4>Based on Project X's UI!</h4>
+  <h5>(C) Copyright 2023 z1g Project All rights Reserved</h5>
+
+  <script>
+    // Check if the user has already visited the games page
+    var hasVisitedGamesPage = localStorage.getItem('visitedGamesPage');
+
+    if (!hasVisitedGamesPage) {
+      // Display first-run message or perform first-run actions
+      window.location.replace("welcome.html");
+
+      // Set the flag to indicate the user has visited the games page
+      localStorage.setItem('visitedGamesPage', 'true');
+    }
+
+    // Function to open a game in the game engine page
+    function openGame(url) {
+      window.location.href = url;
+    }
+  </script>
+</body>
+</html>
