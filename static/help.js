@@ -8,7 +8,7 @@
     var codeElement = document.getElementById('url-two');
     codeElement.textContent = currentURL + '?app=settings';
 
-    var currentURL = window.location.location.origin;
+    var currentURL = window.location.origin;
       
     var codeElement = document.getElementById('url-three');
     codeElement.textContent = currentURL + '?app=help';
