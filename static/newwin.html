@@ -23,20 +23,34 @@
     <div class="search" id="search">
         <svg xmlns="http://www.w3.org/2000/svg" class="searchic" viewBox="0 0 24 24" stroke-width="1.5"
             stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-            <circle cx="10" cy="10" r="7" />
-            <line x1="21" y1="21" x2="15" y2="15" />
         </svg>
-        <input placeholder="Terbium" id="searchq" autocomplete="off" class="searchi">
+        <input placeholder="Terbium Search" id="searchq" autocomplete="off" class="searchi">
         <a class="chc" onclick="ser();">
             <svg xmlns="http://www.w3.org/2000/svg" class="check" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                <path d="M5 12l5 5l10 -10" />
             </svg>
         </a>
     </div>
+
+    <div class="apps-menu">
+        <a href="#" class="app-icon" onclick="redirectToEncodedURL(this)" data-url="https://searx.org">
+          <img src="https://searx.org/favicon.ico" width="50px" height="50px" alt="SearX">
+        </a>
+        <a href="#" class="app-icon" onclick="redirectToEncodedURL(this)" data-url="https://github.com">
+          <img src="https://github.com/favicon.ico" width="50px" height="50px" alt="Github">
+        </a>
+        <a href="#" class="app-icon" onclick="redirectToEncodedURL(this)" data-url="https://www.amazon.com">
+          <img src="https://www.amazon.com/favicon.ico" width="50px" height="50px" alt="Amazon">
+        </a>
+      </div>      
+
+    <!--div class="profile-icon">
+        <a href="#" class="profile-link">
+            <svg xmlns="http://www.w3.org/2000/svg" class="profile-icon-svg" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            </svg>
+        </a>
+    </div-->
+
     <script src="./js/theme.js"></script>
     <script src="./js/new.js"></script>
 </body>
-
 </html>
