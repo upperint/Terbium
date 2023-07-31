@@ -1,0 +1,147 @@
+{
+  ".solid/index.css": {
+    "file": "assets/index-245ee21e.css",
+    "src": ".solid/index.css"
+  },
+  ".solid/index.html": {
+    "css": [
+      "assets/index-245ee21e.css"
+    ],
+    "dynamicImports": [
+      "src/routes/index.tsx",
+      "src/routes/internal/bookmarks.tsx",
+      "src/routes/internal/history.tsx",
+      "src/routes/internal/newTab.tsx",
+      "src/routes/internal/preferences.tsx",
+      "src/routes/internal/view-source.tsx",
+      "src/util/registerSW.ts"
+    ],
+    "file": "assets/index-67b95e4d.js",
+    "isEntry": true,
+    "src": ".solid/index.html"
+  },
+  "_Favicon-92801973.js": {
+    "file": "assets/Favicon-92801973.js",
+    "imports": [
+      ".solid/index.html"
+    ]
+  },
+  "_index-597b806a.js": {
+    "file": "assets/index-597b806a.js",
+    "imports": [
+      ".solid/index.html",
+      "_url-c64a84a7.js"
+    ],
+    "isDynamicEntry": true
+  },
+  "_url-c64a84a7.js": {
+    "file": "assets/url-c64a84a7.js",
+    "imports": [
+      ".solid/index.html"
+    ]
+  },
+  "src/routes/index.tsx": {
+    "dynamicImports": [
+      "src/scripts/registerProtocols.ts",
+      "src/scripts/registerKeybinds.ts",
+      "src/scripts/addonStoreModifier.ts",
+      "_index-597b806a.js"
+    ],
+    "file": "assets/index-31a78159.js",
+    "imports": [
+      ".solid/index.html",
+      "_Favicon-92801973.js",
+      "_index-597b806a.js",
+      "_url-c64a84a7.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/routes/index.tsx"
+  },
+  "src/routes/internal/bookmarks.tsx": {
+    "file": "assets/bookmarks-66a71e63.js",
+    "imports": [
+      ".solid/index.html"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/routes/internal/bookmarks.tsx"
+  },
+  "src/routes/internal/history.tsx": {
+    "dynamicImports": [
+      "_index-597b806a.js"
+    ],
+    "file": "assets/history-554260db.js",
+    "imports": [
+      ".solid/index.html",
+      "_Favicon-92801973.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/routes/internal/history.tsx"
+  },
+  "src/routes/internal/newTab.tsx": {
+    "file": "assets/newTab-e3ec229d.js",
+    "imports": [
+      ".solid/index.html",
+      "_url-c64a84a7.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/routes/internal/newTab.tsx"
+  },
+  "src/routes/internal/preferences.tsx": {
+    "file": "assets/preferences-ad4c26da.js",
+    "imports": [
+      ".solid/index.html"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/routes/internal/preferences.tsx"
+  },
+  "src/routes/internal/view-source.css": {
+    "file": "assets/view-source-5c045b07.css",
+    "src": "src/routes/internal/view-source.css"
+  },
+  "src/routes/internal/view-source.tsx": {
+    "css": [
+      "assets/view-source-5c045b07.css"
+    ],
+    "file": "assets/view-source-cf4bfdef.js",
+    "imports": [
+      ".solid/index.html"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/routes/internal/view-source.tsx"
+  },
+  "src/scripts/addonStoreModifier.ts": {
+    "file": "assets/addonStoreModifier-5071daf8.js",
+    "imports": [
+      "_index-597b806a.js",
+      ".solid/index.html",
+      "_url-c64a84a7.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/scripts/addonStoreModifier.ts"
+  },
+  "src/scripts/registerKeybinds.ts": {
+    "file": "assets/registerKeybinds-098e9e4e.js",
+    "imports": [
+      ".solid/index.html",
+      "_index-597b806a.js",
+      "_url-c64a84a7.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/scripts/registerKeybinds.ts"
+  },
+  "src/scripts/registerProtocols.ts": {
+    "file": "assets/registerProtocols-38533446.js",
+    "imports": [
+      "_index-597b806a.js",
+      ".solid/index.html",
+      "_url-c64a84a7.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/scripts/registerProtocols.ts"
+  },
+  "src/util/registerSW.ts": {
+    "file": "assets/registerSW-51f8a8af.js",
+    "isDynamicEntry": true,
+    "src": "src/util/registerSW.ts"
+  }
+}

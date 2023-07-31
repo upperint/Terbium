@@ -1,0 +1,121 @@
+{
+  "/": [
+    {
+      "type": "script",
+      "href": "assets/index-31a78159.js"
+    },
+    {
+      "type": "script",
+      "href": "assets/index-67b95e4d.js"
+    },
+    {
+      "type": "style",
+      "href": "assets/index-245ee21e.css"
+    },
+    {
+      "type": "script",
+      "href": "assets/Favicon-92801973.js"
+    },
+    {
+      "type": "script",
+      "href": "assets/index-597b806a.js"
+    },
+    {
+      "type": "script",
+      "href": "assets/url-c64a84a7.js"
+    }
+  ],
+  "/internal/bookmarks": [
+    {
+      "type": "script",
+      "href": "assets/bookmarks-66a71e63.js"
+    },
+    {
+      "type": "script",
+      "href": "assets/index-67b95e4d.js"
+    },
+    {
+      "type": "style",
+      "href": "assets/index-245ee21e.css"
+    }
+  ],
+  "/internal/history": [
+    {
+      "type": "script",
+      "href": "assets/history-554260db.js"
+    },
+    {
+      "type": "script",
+      "href": "assets/index-67b95e4d.js"
+    },
+    {
+      "type": "style",
+      "href": "assets/index-245ee21e.css"
+    },
+    {
+      "type": "script",
+      "href": "assets/Favicon-92801973.js"
+    }
+  ],
+  "/internal/newTab": [
+    {
+      "type": "script",
+      "href": "assets/newTab-e3ec229d.js"
+    },
+    {
+      "type": "script",
+      "href": "assets/index-67b95e4d.js"
+    },
+    {
+      "type": "style",
+      "href": "assets/index-245ee21e.css"
+    },
+    {
+      "type": "script",
+      "href": "assets/url-c64a84a7.js"
+    }
+  ],
+  "/internal/preferences": [
+    {
+      "type": "script",
+      "href": "assets/preferences-ad4c26da.js"
+    },
+    {
+      "type": "script",
+      "href": "assets/index-67b95e4d.js"
+    },
+    {
+      "type": "style",
+      "href": "assets/index-245ee21e.css"
+    }
+  ],
+  "/internal/view-source": [
+    {
+      "type": "script",
+      "href": "assets/view-source-cf4bfdef.js"
+    },
+    {
+      "type": "script",
+      "href": "assets/index-67b95e4d.js"
+    },
+    {
+      "type": "style",
+      "href": "assets/index-245ee21e.css"
+    },
+    {
+      "type": "style",
+      "href": "assets/view-source-5c045b07.css"
+    }
+  ],
+  "entry-client": [],
+  "index.html": [
+    {
+      "type": "script",
+      "href": "assets/index-67b95e4d.js"
+    },
+    {
+      "type": "style",
+      "href": "assets/index-245ee21e.css"
+    }
+  ]
+}
