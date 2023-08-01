@@ -1,468 +1,301 @@
 {
-  "\u0000E:/Files/Terbium/Terbium/static/velocity/Velocity/node_modules/base64-js/index.js?commonjs-exports": [
-  ],
-  "\u0000E:/Files/Terbium/Terbium/static/velocity/Velocity/node_modules/call-bind/index.js?commonjs-module": [
-    "/assets/index-597b806a.js"
-  ],
-  "\u0000E:/Files/Terbium/Terbium/static/velocity/Velocity/node_modules/color-string/index.js?commonjs-module": [
-  ],
-  "\u0000E:/Files/Terbium/Terbium/static/velocity/Velocity/node_modules/events/events.js?commonjs-module": [
-    "/assets/index-597b806a.js"
-  ],
-  "\u0000E:/Files/Terbium/Terbium/static/velocity/Velocity/node_modules/filer/dist/filer.js?commonjs-module": [
-    "/assets/index-597b806a.js"
-  ],
-  "\u0000E:/Files/Terbium/Terbium/static/velocity/Velocity/node_modules/ieee754/index.js?commonjs-exports": [
-  ],
-  "\u0000E:/Files/Terbium/Terbium/static/velocity/Velocity/node_modules/inherits/inherits_browser.js?commonjs-module": [
-    "/assets/index-597b806a.js"
-  ],
-  "\u0000E:/Files/Terbium/Terbium/static/velocity/Velocity/node_modules/mime-types/index.js?commonjs-exports": [
-  ],
-  "\u0000E:/Files/Terbium/Terbium/static/velocity/Velocity/node_modules/node-stdlib-browser/node_modules/buffer/index.js?commonjs-exports": [
-  ],
-  "\u0000E:/Files/Terbium/Terbium/static/velocity/Velocity/node_modules/prismjs/prism.js?commonjs-module": [
-    "/assets/view-source-cf4bfdef.js",
-    "/assets/view-source-5c045b07.css"
-  ],
-  "\u0000E:/Files/Terbium/Terbium/static/velocity/Velocity/node_modules/process/browser.js?commonjs-module": [
-  ],
-  "\u0000E:/Files/Terbium/Terbium/static/velocity/Velocity/node_modules/simple-swizzle/index.js?commonjs-module": [
-  ],
-  "\u0000E:/Files/Terbium/Terbium/static/velocity/Velocity/node_modules/util/support/types.js?commonjs-exports": [
-    "/assets/index-597b806a.js"
-  ],
-  "\u0000E:/Files/Terbium/Terbium/static/velocity/Velocity/node_modules/util/util.js?commonjs-exports": [
-    "/assets/index-597b806a.js"
-  ],
-  "\u0000commonjsHelpers.js": [
-  ],
-  "\u0000vite/modulepreload-polyfill": [
-  ],
-  "\u0000vite/preload-helper": [
-  ],
-  ".solid/index.html": [
-  ],
-  "node_modules/@solidjs/meta/dist/index.jsx": [
-  ],
-  "node_modules/@solidjs/router/dist/components.jsx": [
-  ],
-  "node_modules/@solidjs/router/dist/integration.js": [
-  ],
-  "node_modules/@solidjs/router/dist/lifecycle.js": [
-  ],
-  "node_modules/@solidjs/router/dist/routing.js": [
-  ],
-  "node_modules/@solidjs/router/dist/utils.js": [
-  ],
-  "node_modules/@thisbeyond/solid-dnd/dist/index.jsx": [
-    "/assets/index-31a78159.js"
-  ],
-  "node_modules/@tomphttp/bare-client/dist/BareClient.js": [
-  ],
-  "node_modules/@zip.js/zip.js/index.js": [
-    "/assets/index-597b806a.js"
-  ],
-  "node_modules/@zip.js/zip.js/lib/core/codec-pool.js": [
-    "/assets/index-597b806a.js"
-  ],
-  "node_modules/@zip.js/zip.js/lib/core/codec-worker.js": [
-    "/assets/index-597b806a.js"
-  ],
-  "node_modules/@zip.js/zip.js/lib/core/configuration.js": [
-    "/assets/index-597b806a.js"
-  ],
-  "node_modules/@zip.js/zip.js/lib/core/constants.js": [
-    "/assets/index-597b806a.js"
-  ],
-  "node_modules/@zip.js/zip.js/lib/core/io.js": [
-    "/assets/index-597b806a.js"
-  ],
-  "node_modules/@zip.js/zip.js/lib/core/streams/aes-crypto-stream.js": [
-    "/assets/index-597b806a.js"
-  ],
-  "node_modules/@zip.js/zip.js/lib/core/streams/codec-stream.js": [
-    "/assets/index-597b806a.js"
-  ],
-  "node_modules/@zip.js/zip.js/lib/core/streams/codecs/crc32.js": [
-    "/assets/index-597b806a.js"
-  ],
-  "node_modules/@zip.js/zip.js/lib/core/streams/codecs/deflate.js": [
-    "/assets/index-597b806a.js"
-  ],
-  "node_modules/@zip.js/zip.js/lib/core/streams/codecs/inflate.js": [
-    "/assets/index-597b806a.js"
-  ],
-  "node_modules/@zip.js/zip.js/lib/core/streams/codecs/sjcl.js": [
-    "/assets/index-597b806a.js"
-  ],
-  "node_modules/@zip.js/zip.js/lib/core/streams/common-crypto.js": [
-    "/assets/index-597b806a.js"
-  ],
-  "node_modules/@zip.js/zip.js/lib/core/streams/crc32-stream.js": [
-    "/assets/index-597b806a.js"
-  ],
-  "node_modules/@zip.js/zip.js/lib/core/streams/stream-adapter.js": [
-    "/assets/index-597b806a.js"
-  ],
-  "node_modules/@zip.js/zip.js/lib/core/streams/zip-crypto-stream.js": [
-    "/assets/index-597b806a.js"
-  ],
-  "node_modules/@zip.js/zip.js/lib/core/streams/zip-entry-stream.js": [
-    "/assets/index-597b806a.js"
-  ],
-  "node_modules/@zip.js/zip.js/lib/core/util/cp437-decode.js": [
-    "/assets/index-597b806a.js"
-  ],
-  "node_modules/@zip.js/zip.js/lib/core/util/decode-text.js": [
-    "/assets/index-597b806a.js"
-  ],
-  "node_modules/@zip.js/zip.js/lib/core/util/encode-text.js": [
-    "/assets/index-597b806a.js"
-  ],
-  "node_modules/@zip.js/zip.js/lib/core/util/mime-type.js": [
-    "/assets/index-597b806a.js"
-  ],
-  "node_modules/@zip.js/zip.js/lib/core/zip-entry.js": [
-    "/assets/index-597b806a.js"
-  ],
-  "node_modules/@zip.js/zip.js/lib/core/zip-reader.js": [
-    "/assets/index-597b806a.js"
-  ],
-  "node_modules/@zip.js/zip.js/lib/z-worker-inline.js": [
-    "/assets/index-597b806a.js"
-  ],
-  "node_modules/@zip.js/zip.js/lib/zip-fs.js": [
-    "/assets/index-597b806a.js"
-  ],
-  "node_modules/available-typed-arrays/index.js": [
-    "/assets/index-597b806a.js"
-  ],
-  "node_modules/base64-js/index.js": [
-  ],
-  "node_modules/call-bind/callBound.js": [
-    "/assets/index-597b806a.js"
-  ],
-  "node_modules/call-bind/index.js": [
-    "/assets/index-597b806a.js"
-  ],
-  "node_modules/color-name/index.js": [
-  ],
-  "node_modules/color-string/index.js": [
-  ],
-  "node_modules/color/index.js": [
-  ],
-  "node_modules/color/node_modules/color-convert/conversions.js": [
-  ],
-  "node_modules/color/node_modules/color-convert/index.js": [
-  ],
-  "node_modules/color/node_modules/color-convert/route.js": [
-  ],
-  "node_modules/color/node_modules/color-name/index.js": [
-  ],
-  "node_modules/events/events.js": [
-    "/assets/index-597b806a.js"
-  ],
-  "node_modules/filer/dist/filer.js": [
-    "/assets/index-597b806a.js"
-  ],
-  "node_modules/for-each/index.js": [
-    "/assets/index-597b806a.js"
-  ],
-  "node_modules/function-bind/implementation.js": [
-    "/assets/index-597b806a.js"
-  ],
-  "node_modules/function-bind/index.js": [
-    "/assets/index-597b806a.js"
-  ],
-  "node_modules/get-intrinsic/index.js": [
-    "/assets/index-597b806a.js"
-  ],
-  "node_modules/gopd/index.js": [
-    "/assets/index-597b806a.js"
-  ],
-  "node_modules/has-proto/index.js": [
-    "/assets/index-597b806a.js"
-  ],
-  "node_modules/has-symbols/index.js": [
-    "/assets/index-597b806a.js"
-  ],
-  "node_modules/has-symbols/shams.js": [
-    "/assets/index-597b806a.js"
-  ],
-  "node_modules/has-tostringtag/shams.js": [
-    "/assets/index-597b806a.js"
-  ],
-  "node_modules/has/src/index.js": [
-    "/assets/index-597b806a.js"
-  ],
-  "node_modules/idb/build/index.js": [
-  ],
-  "node_modules/idb/build/wrap-idb-value.js": [
-  ],
-  "node_modules/ieee754/index.js": [
-  ],
-  "node_modules/inherits/inherits_browser.js": [
-    "/assets/index-597b806a.js"
-  ],
-  "node_modules/is-arguments/index.js": [
-    "/assets/index-597b806a.js"
-  ],
-  "node_modules/is-arrayish/index.js": [
-  ],
-  "node_modules/is-callable/index.js": [
-    "/assets/index-597b806a.js"
-  ],
-  "node_modules/is-generator-function/index.js": [
-    "/assets/index-597b806a.js"
-  ],
-  "node_modules/is-typed-array/index.js": [
-    "/assets/index-597b806a.js"
-  ],
-  "node_modules/mime-db/db.json": [
-  ],
-  "node_modules/mime-db/index.js": [
-  ],
-  "node_modules/mime-types/index.js": [
-  ],
-  "node_modules/node-stdlib-browser/helpers/esbuild/shim.js": [
-  ],
-  "node_modules/node-stdlib-browser/node_modules/buffer/index.js": [
-  ],
-  "node_modules/path-browserify/index.js": [
-  ],
-  "node_modules/prism-themes/themes/prism-one-dark.css": [
-    "/assets/view-source-cf4bfdef.js",
-    "/assets/view-source-5c045b07.css"
-  ],
-  "node_modules/prismjs/prism.js": [
-    "/assets/view-source-cf4bfdef.js",
-    "/assets/view-source-5c045b07.css"
-  ],
-  "node_modules/process/browser.js": [
-  ],
-  "node_modules/simple-swizzle/index.js": [
-  ],
-  "node_modules/solid-js/dist/solid.js": [
-  ],
+  "vite/modulepreload-polyfill": [],
+  "node_modules/solid-js/dist/solid.js": [],
+  "node_modules/solid-js/web/dist/web.js": [],
+  "\u0000vite/preload-helper": [],
+  "node_modules/solid-start/entry-client/mount.tsx": [],
+  "node_modules/@solidjs/meta/dist/index.jsx": [],
+  "node_modules/@solidjs/router/dist/integration.js": [],
+  "node_modules/@solidjs/router/dist/lifecycle.js": [],
+  "node_modules/@solidjs/router/dist/utils.js": [],
+  "node_modules/@solidjs/router/dist/routing.js": [],
+  "node_modules/@solidjs/router/dist/components.jsx": [],
+  "src/browser.css": [],
+  "node_modules/solid-start/server/ServerContext.tsx": [],
+  "node_modules/solid-start/router.tsx": [],
+  "node_modules/solid-start/server/types.tsx": [],
+  "node_modules/solid-start/error-boundary/ErrorBoundary.tsx": [],
+  "node_modules/solid-start/root/Scripts.tsx": [],
+  "node_modules/solid-start/root/Document.tsx": [],
+  "src/components/SEO.tsx": [],
+  "src/data/appState.ts": [],
+  "node_modules/uuid/dist/esm-browser/rng.js": [],
+  "node_modules/uuid/dist/esm-browser/stringify.js": [],
+  "node_modules/uuid/dist/esm-browser/native.js": [],
+  "node_modules/uuid/dist/esm-browser/v4.js": [],
+  "src/util/bindingUtil.ts": [],
+  "src/manager/addonWorkerManager.ts": [],
+  "node_modules/idb/build/wrap-idb-value.js": [],
+  "node_modules/idb/build/index.js": [],
+  "node_modules/solid-start/root/FileRoutes.tsx": [],
+  "\u0000commonjsHelpers.js": [],
+  "\u0000E:/Files/Velocity-Browser/Velocity/node_modules/color-string/index.js?commonjs-module": [],
+  "node_modules/color-name/index.js": [],
+  "\u0000E:/Files/Velocity-Browser/Velocity/node_modules/simple-swizzle/index.js?commonjs-module": [],
+  "node_modules/is-arrayish/index.js": [],
+  "node_modules/simple-swizzle/index.js": [],
+  "node_modules/color-string/index.js": [],
+  "node_modules/color-convert/conversions.js": [],
+  "node_modules/color-convert/route.js": [],
+  "node_modules/color-convert/index.js": [],
+  "node_modules/color/index.js": [],
+  "\u0000E:/Files/Velocity-Browser/Velocity/node_modules/mime-db/index.js?commonjs-module": [],
+  "node_modules/mime-db/db.json": [],
+  "node_modules/mime-db/index.js": [],
+  "src/manager/themeManager.ts": [],
+  "src/util/index.ts": [],
+  "src/root.tsx": [],
+  "node_modules/solid-start/entry-client/StartClient.tsx": [],
+  "src/entry-client.tsx": [],
+  ".solid/index.html": [],
   "node_modules/solid-js/store/dist/store.js": [
-    "/assets/index-31a78159.js"
-  ],
-  "node_modules/solid-js/web/dist/web.js": [
-  ],
-  "node_modules/solid-start/entry-client/StartClient.tsx": [
-  ],
-  "node_modules/solid-start/entry-client/mount.tsx": [
-  ],
-  "node_modules/solid-start/error-boundary/ErrorBoundary.tsx": [
-  ],
-  "node_modules/solid-start/root/Document.tsx": [
-  ],
-  "node_modules/solid-start/root/FileRoutes.tsx": [
-  ],
-  "node_modules/solid-start/root/Scripts.tsx": [
-  ],
-  "node_modules/solid-start/router.tsx": [
-  ],
-  "node_modules/solid-start/server/ServerContext.tsx": [
-  ],
-  "node_modules/solid-start/server/types.tsx": [
-  ],
-  "node_modules/util/support/isBufferBrowser.js": [
-    "/assets/index-597b806a.js"
-  ],
-  "node_modules/util/support/types.js": [
-    "/assets/index-597b806a.js"
-  ],
-  "node_modules/util/util.js": [
-    "/assets/index-597b806a.js"
-  ],
-  "node_modules/uuid/dist/esm-browser/native.js": [
-  ],
-  "node_modules/uuid/dist/esm-browser/rng.js": [
-  ],
-  "node_modules/uuid/dist/esm-browser/stringify.js": [
-  ],
-  "node_modules/uuid/dist/esm-browser/v4.js": [
-  ],
-  "node_modules/which-typed-array/index.js": [
-    "/assets/index-597b806a.js"
-  ],
-  "src/addon/constants.ts": [
-    "/assets/index-597b806a.js"
-  ],
-  "src/addon/util/getLatestVersion.ts": [
-    "/assets/index-597b806a.js"
-  ],
-  "src/api/AddonDownloader.ts": [
-    "/assets/index-597b806a.js"
-  ],
-  "src/api/AddonReader.ts": [
-    "/assets/index-597b806a.js"
-  ],
-  "src/api/ContextItem.ts": [
-    "/assets/index-597b806a.js"
-  ],
-  "src/api/History.ts": [
-    "/assets/index-597b806a.js"
-  ],
-  "src/api/Keybind.ts": [
-    "/assets/index-597b806a.js"
-  ],
-  "src/api/Popup.ts": [
-    "/assets/index-597b806a.js"
-  ],
-  "src/api/Protocol.ts": [
-    "/assets/index-597b806a.js"
-  ],
-  "src/api/RuntimeModifier.ts": [
-    "/assets/index-597b806a.js"
-  ],
-  "src/api/Tab.ts": [
-    "/assets/index-597b806a.js"
-  ],
-  "src/api/index.ts": [
-    "/assets/index-597b806a.js"
-  ],
-  "src/browser.css": [
-  ],
-  "src/components/AppMenu/index.tsx": [
-    "/assets/index-31a78159.js"
+    "/velocity/assets/index.bc49e50c.js"
   ],
   "src/components/Bookmark.tsx": [
-    "/assets/index-31a78159.js"
+    "/velocity/assets/index.bc49e50c.js"
   ],
-  "src/components/Bookmarks.tsx": [
-    "/assets/index-31a78159.js"
+  "node_modules/@thisbeyond/solid-dnd/dist/index.jsx": [
+    "/velocity/assets/index.bc49e50c.js"
   ],
   "src/components/ConstrainDragAxis.tsx": [
-    "/assets/index-31a78159.js"
+    "/velocity/assets/index.bc49e50c.js"
   ],
-  "src/components/ContextMenu/Button.tsx": [
-    "/assets/index-597b806a.js"
-  ],
-  "src/components/ContextMenu/index.tsx": [
-    "/assets/index-597b806a.js"
-  ],
-  "src/components/Favicon.tsx": [
-    "/assets/Favicon-92801973.js"
+  "src/components/Bookmarks.tsx": [
+    "/velocity/assets/index.bc49e50c.js"
   ],
   "src/components/Popup.tsx": [
-    "/assets/index-31a78159.js"
-  ],
-  "src/components/SEO.tsx": [
+    "/velocity/assets/index.bc49e50c.js"
   ],
   "src/components/Tab.tsx": [
-    "/assets/index-31a78159.js"
+    "/velocity/assets/index.bc49e50c.js"
   ],
   "src/components/Tabs.tsx": [
-    "/assets/index-31a78159.js"
+    "/velocity/assets/index.bc49e50c.js"
+  ],
+  "src/components/AppMenu/index.tsx": [
+    "/velocity/assets/index.bc49e50c.js"
   ],
   "src/components/Utility.tsx": [
-    "/assets/index-31a78159.js"
-  ],
-  "src/components/internal/preferences/General.tsx": [
-    "/assets/preferences-ad4c26da.js"
-  ],
-  "src/components/internal/preferences/Home.tsx": [
-    "/assets/preferences-ad4c26da.js"
-  ],
-  "src/components/internal/preferences/Keybinds.tsx": [
-    "/assets/preferences-ad4c26da.js"
-  ],
-  "src/components/internal/preferences/NavButton.tsx": [
-    "/assets/preferences-ad4c26da.js"
-  ],
-  "src/components/internal/preferences/Search.tsx": [
-    "/assets/preferences-ad4c26da.js"
-  ],
-  "src/components/internal/preferences/inputs/Dropdown.tsx": [
-    "/assets/preferences-ad4c26da.js"
-  ],
-  "src/components/internal/preferences/inputs/Keybind.tsx": [
-    "/assets/preferences-ad4c26da.js"
-  ],
-  "src/components/internal/preferences/inputs/Toggle.tsx": [
-    "/assets/preferences-ad4c26da.js"
-  ],
-  "src/data/appState.ts": [
-  ],
-  "src/entry-client.tsx": [
-  ],
-  "src/manager/addonStateManager.tsx": [
-    "/assets/addonStoreModifier-5071daf8.js"
-  ],
-  "src/manager/addonWorkerManager.ts": [
-  ],
-  "src/manager/bookmarkManager.ts": [
-    "/assets/index-597b806a.js"
-  ],
-  "src/manager/clickManager.ts": [
-    "/assets/index-597b806a.js"
-  ],
-  "src/manager/contentScriptManager.ts": [
-    "/assets/index-597b806a.js"
-  ],
-  "src/manager/contextManager.ts": [
-    "/assets/index-597b806a.js"
-  ],
-  "src/manager/keybindManager.ts": [
-    "/assets/index-597b806a.js"
-  ],
-  "src/manager/protocolManager.ts": [
-    "/assets/url-c64a84a7.js"
-  ],
-  "src/manager/runtimeManager.ts": [
-    "/assets/index-597b806a.js"
-  ],
-  "src/manager/tabManager.ts": [
-    "/assets/index-597b806a.js"
-  ],
-  "src/manager/themeManager.ts": [
-  ],
-  "src/manager/xenosManager.ts": [
-    "/assets/index-597b806a.js"
-  ],
-  "src/root.tsx": [
+    "/velocity/assets/index.bc49e50c.js"
   ],
   "src/routes/index.tsx": [
-    "/assets/index-31a78159.js"
+    "/velocity/assets/index.bc49e50c.js"
   ],
-  "src/routes/internal/bookmarks.tsx": [
-    "/assets/bookmarks-66a71e63.js"
+  "src/api/ContextItem.ts": [
+    "/velocity/assets/index.5c288931.js"
   ],
-  "src/routes/internal/history.tsx": [
-    "/assets/history-554260db.js"
+  "\u0000E:/Files/Velocity-Browser/Velocity/node_modules/events/events.js?commonjs-module": [
+    "/velocity/assets/index.5c288931.js"
   ],
-  "src/routes/internal/newTab.tsx": [
-    "/assets/newTab-e3ec229d.js"
+  "node_modules/events/events.js": [
+    "/velocity/assets/index.5c288931.js"
   ],
-  "src/routes/internal/preferences.tsx": [
-    "/assets/preferences-ad4c26da.js"
+  "src/manager/contentScriptManager.ts": [
+    "/velocity/assets/index.5c288931.js"
   ],
-  "src/routes/internal/view-source.tsx": [
-    "/assets/view-source-cf4bfdef.js",
-    "/assets/view-source-5c045b07.css"
+  "src/manager/runtimeManager.ts": [
+    "/velocity/assets/index.5c288931.js"
   ],
-  "src/scripts/addonStoreModifier.ts": [
-    "/assets/addonStoreModifier-5071daf8.js"
+  "src/components/ContextMenu/Button.tsx": [
+    "/velocity/assets/index.5c288931.js"
   ],
-  "src/scripts/registerKeybinds.ts": [
-    "/assets/registerKeybinds-098e9e4e.js"
+  "src/components/ContextMenu/index.tsx": [
+    "/velocity/assets/index.5c288931.js"
   ],
-  "src/scripts/registerProtocols.ts": [
-    "/assets/registerProtocols-38533446.js"
+  "src/manager/clickManager.ts": [
+    "/velocity/assets/index.5c288931.js"
   ],
-  "src/util/bareClient.ts": [
+  "src/manager/contextManager.ts": [
+    "/velocity/assets/index.5c288931.js"
   ],
-  "src/util/bindingUtil.ts": [
+  "src/manager/keybindManager.ts": [
+    "/velocity/assets/index.5c288931.js"
   ],
-  "src/util/index.ts": [
+  "src/manager/xenosManager.ts": [
+    "/velocity/assets/index.5c288931.js"
   ],
-  "src/util/registerSW.ts": [
-    "/assets/registerSW-51f8a8af.js"
+  "src/manager/tabManager.ts": [
+    "/velocity/assets/index.5c288931.js"
+  ],
+  "src/api/Tab.ts": [
+    "/velocity/assets/index.5c288931.js"
+  ],
+  "src/manager/bookmarkManager.ts": [
+    "/velocity/assets/index.5c288931.js"
+  ],
+  "node_modules/@zip.js/zip.js/lib/core/streams/codecs/deflate.js": [
+    "/velocity/assets/index.5c288931.js"
+  ],
+  "node_modules/@zip.js/zip.js/lib/core/streams/codecs/inflate.js": [
+    "/velocity/assets/index.5c288931.js"
+  ],
+  "node_modules/@zip.js/zip.js/lib/core/constants.js": [
+    "/velocity/assets/index.5c288931.js"
+  ],
+  "node_modules/@zip.js/zip.js/lib/core/streams/stream-adapter.js": [
+    "/velocity/assets/index.5c288931.js"
+  ],
+  "node_modules/@zip.js/zip.js/lib/core/configuration.js": [
+    "/velocity/assets/index.5c288931.js"
+  ],
+  "node_modules/@zip.js/zip.js/lib/core/util/mime-type.js": [
+    "/velocity/assets/index.5c288931.js"
+  ],
+  "node_modules/@zip.js/zip.js/lib/core/streams/codecs/crc32.js": [
+    "/velocity/assets/index.5c288931.js"
+  ],
+  "node_modules/@zip.js/zip.js/lib/core/streams/crc32-stream.js": [
+    "/velocity/assets/index.5c288931.js"
+  ],
+  "node_modules/@zip.js/zip.js/lib/core/util/encode-text.js": [
+    "/velocity/assets/index.5c288931.js"
+  ],
+  "node_modules/@zip.js/zip.js/lib/core/streams/codecs/sjcl.js": [
+    "/velocity/assets/index.5c288931.js"
+  ],
+  "node_modules/@zip.js/zip.js/lib/core/streams/common-crypto.js": [
+    "/velocity/assets/index.5c288931.js"
+  ],
+  "node_modules/@zip.js/zip.js/lib/core/streams/aes-crypto-stream.js": [
+    "/velocity/assets/index.5c288931.js"
+  ],
+  "node_modules/@zip.js/zip.js/lib/core/streams/zip-crypto-stream.js": [
+    "/velocity/assets/index.5c288931.js"
+  ],
+  "node_modules/@zip.js/zip.js/lib/core/streams/zip-entry-stream.js": [
+    "/velocity/assets/index.5c288931.js"
+  ],
+  "node_modules/@zip.js/zip.js/lib/core/streams/codec-stream.js": [
+    "/velocity/assets/index.5c288931.js"
+  ],
+  "node_modules/@zip.js/zip.js/lib/core/codec-worker.js": [
+    "/velocity/assets/index.5c288931.js"
+  ],
+  "node_modules/@zip.js/zip.js/lib/core/codec-pool.js": [
+    "/velocity/assets/index.5c288931.js"
+  ],
+  "node_modules/@zip.js/zip.js/lib/z-worker-inline.js": [
+    "/velocity/assets/index.5c288931.js"
+  ],
+  "node_modules/@zip.js/zip.js/lib/core/io.js": [
+    "/velocity/assets/index.5c288931.js"
+  ],
+  "node_modules/@zip.js/zip.js/lib/core/util/cp437-decode.js": [
+    "/velocity/assets/index.5c288931.js"
+  ],
+  "node_modules/@zip.js/zip.js/lib/core/util/decode-text.js": [
+    "/velocity/assets/index.5c288931.js"
+  ],
+  "node_modules/@zip.js/zip.js/lib/core/zip-entry.js": [
+    "/velocity/assets/index.5c288931.js"
+  ],
+  "node_modules/@zip.js/zip.js/lib/core/zip-reader.js": [
+    "/velocity/assets/index.5c288931.js"
+  ],
+  "node_modules/@zip.js/zip.js/lib/zip-fs.js": [
+    "/velocity/assets/index.5c288931.js"
+  ],
+  "node_modules/@zip.js/zip.js/index.js": [
+    "/velocity/assets/index.5c288931.js"
+  ],
+  "src/api/AddonReader.ts": [
+    "/velocity/assets/index.5c288931.js"
+  ],
+  "src/api/History.ts": [
+    "/velocity/assets/index.5c288931.js"
+  ],
+  "src/api/Keybind.ts": [
+    "/velocity/assets/index.5c288931.js"
+  ],
+  "src/api/Popup.ts": [
+    "/velocity/assets/index.5c288931.js"
+  ],
+  "src/api/Protocol.ts": [
+    "/velocity/assets/index.5c288931.js"
+  ],
+  "src/api/RuntimeModifier.ts": [
+    "/velocity/assets/index.5c288931.js"
+  ],
+  "src/api/index.ts": [
+    "/velocity/assets/index.5c288931.js"
+  ],
+  "src/manager/protocolManager.ts": [
+    "/velocity/assets/url.8f0b591e.js"
   ],
   "src/util/url.ts": [
-    "/assets/url-c64a84a7.js"
+    "/velocity/assets/url.8f0b591e.js"
+  ],
+  "src/components/Favicon.tsx": [
+    "/velocity/assets/Favicon.dad3db96.js"
+  ],
+  "node_modules/@tomphttp/bare-client/dist/BareClient.js": [
+    "/velocity/assets/BareClient.06787bc0.js"
+  ],
+  "src/routes/internal/bookmarks.tsx": [
+    "/velocity/assets/bookmarks.62a2af36.js"
+  ],
+  "src/routes/internal/history.tsx": [
+    "/velocity/assets/history.d36679d9.js"
+  ],
+  "src/routes/internal/newTab.tsx": [
+    "/velocity/assets/newTab.cd00467e.js"
+  ],
+  "src/components/internal/preferences/inputs/Dropdown.tsx": [
+    "/velocity/assets/preferences.c913d9e3.js"
+  ],
+  "src/components/internal/preferences/inputs/Toggle.tsx": [
+    "/velocity/assets/preferences.c913d9e3.js"
+  ],
+  "src/components/internal/preferences/Search.tsx": [
+    "/velocity/assets/preferences.c913d9e3.js"
+  ],
+  "src/components/internal/preferences/General.tsx": [
+    "/velocity/assets/preferences.c913d9e3.js"
+  ],
+  "src/components/internal/preferences/Home.tsx": [
+    "/velocity/assets/preferences.c913d9e3.js"
+  ],
+  "src/components/internal/preferences/inputs/Keybind.tsx": [
+    "/velocity/assets/preferences.c913d9e3.js"
+  ],
+  "src/components/internal/preferences/Keybinds.tsx": [
+    "/velocity/assets/preferences.c913d9e3.js"
+  ],
+  "src/components/internal/preferences/NavButton.tsx": [
+    "/velocity/assets/preferences.c913d9e3.js"
+  ],
+  "src/routes/internal/preferences.tsx": [
+    "/velocity/assets/preferences.c913d9e3.js"
+  ],
+  "node_modules/prism-themes/themes/prism-one-dark.css": [
+    "/velocity/assets/view-source.9c04bceb.js",
+    "/velocity/assets/view-source.5c045b07.css"
+  ],
+  "\u0000E:/Files/Velocity-Browser/Velocity/node_modules/prismjs/prism.js?commonjs-module": [
+    "/velocity/assets/view-source.9c04bceb.js",
+    "/velocity/assets/view-source.5c045b07.css"
+  ],
+  "node_modules/prismjs/prism.js": [
+    "/velocity/assets/view-source.9c04bceb.js",
+    "/velocity/assets/view-source.5c045b07.css"
+  ],
+  "src/routes/internal/view-source.tsx": [
+    "/velocity/assets/view-source.9c04bceb.js",
+    "/velocity/assets/view-source.5c045b07.css"
+  ],
+  "src/util/registerSW.ts": [
+    "/velocity/assets/registerSW.d2dc8ec2.js"
+  ],
+  "src/scripts/registerKeybinds.ts": [
+    "/velocity/assets/registerKeybinds.2079fa2e.js"
+  ],
+  "src/manager/addonStateManager.tsx": [
+    "/velocity/assets/addonStoreModifier.e6e1c9d0.js"
+  ],
+  "src/scripts/addonStoreModifier.ts": [
+    "/velocity/assets/addonStoreModifier.e6e1c9d0.js"
+  ],
+  "src/scripts/registerProtocols.ts": [
+    "/velocity/assets/registerProtocols.3c1182e5.js"
   ]
 }

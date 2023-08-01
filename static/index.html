@@ -21,6 +21,65 @@
               });
             };
         </script>
+    <script>
+        function updateBatteryStatus() {
+            navigator.getBattery().then(function (battery) {
+                const batteryIcon = battery.charging
+                    ? "⚡"
+                    : battery.level === 1
+                     ? "🔌"
+                    : battery.level < 0.2
+                    ? "⚠️"
+                     : "";
+  
+        const batteryPercentage = (battery.level * 100).toFixed(0);
+  
+        const batteryText = `${batteryIcon}${batteryPercentage}%`;
+  
+        document.getElementById("bat-text").textContent = batteryText;
+      });
+    }
+  
+    updateBatteryStatus();
+  
+    navigator.getBattery().then(function (battery) {
+      battery.addEventListener("levelchange", updateBatteryStatus);
+      battery.addEventListener("chargingchange", updateBatteryStatus);
+    });
+  </script>    
+        <style>
+            body {
+                margin: 0;
+            }
+        
+            .battery {
+                font-size: 21px;
+                color: var(--shell-color);
+                transition: ease 0.3s;
+            }
+        
+            @media (max-width: 768px) {
+                .battery {
+                    left: 42%;
+                }
+            }
+        
+            @media (min-width: 769px) {
+                .battery {
+                    left: 42.2%;
+                }
+            }
+            @media (min-width: 1000px) {
+                .battery {
+                    left: 42.6%;
+                }
+            }
+            @media (min-width: 1900px) {
+                .battery {
+                    left: 45%;
+                }
+            }
+        </style>        
     </head>
     <body tabindex="-1" oncontextmenu="return false;" class="noSelect" id="no" data-notification="false">
         <div class="fulltime hidden" id="ft">
@@ -36,6 +95,9 @@
             <div class="time">
                 <h5 class="timeT" id="time"></h5>
             </div>
+            <div class="battery" style="position: relative; font-size: 21px; color: var(--shell-color); transition: ease 0.3s; z-index: 9; height: 100%; top: 16%;">
+                <h5 id="bat-text">noAPI</h5>
+            </div>            
             <div class="showDesk windowsShown" id="showDesk" title="Show Desktop"></div>
         </div>
         <div class="appOptions h">

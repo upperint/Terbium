@@ -1,4 +1,4 @@
-import{Z as W,K as Y,L as te,i as X,d as J,T as ne,Y as re,t as ie}from"./index.a238f31a.js";import{B as se}from"./BareClient.06787bc0.js";var N={exports:{}};(function(_){var w=typeof window<"u"?window:typeof WorkerGlobalScope<"u"&&self instanceof WorkerGlobalScope?self:{};/**
+import{Z as W,K as Y,L as te,i as X,d as J,T as ne,Y as re,t as ie}from"./index.23d2c538.js";import{B as se}from"./BareClient.06787bc0.js";var N={exports:{}};(function(_){var w=typeof window<"u"?window:typeof WorkerGlobalScope<"u"&&self instanceof WorkerGlobalScope?self:{};/**
  * Prism: Lightweight, robust, elegant syntax highlighting
  *
  * @license MIT <https://opensource.org/licenses/MIT>
