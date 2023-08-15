@@ -25,10 +25,8 @@
 
 ![image](https://github.com/TerbiumOS/webOS/blob/main/Terbium.png?raw=true)
 
-**TN Verified Release**
-
 # Credits
 
- Creators - Titanium Network
+ Creator - SNOOT
  Modifiers - z1g project
 (C) Copyright 2021-2023 z1g Project
