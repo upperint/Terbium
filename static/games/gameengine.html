@@ -6,8 +6,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Game Engine</title>
   <style>
-    /* Add your custom CSS styles for the game engine page here */
-    /* For example, you can style the fullscreen and back to home buttons */
     .fullscreen-button {
       position: fixed;
       top: 20px;
@@ -30,7 +28,6 @@
       cursor: pointer;
     }
 
-    /* CSS styles for the game container */
     body {
       margin: 0;
       padding: 0;
@@ -47,8 +44,8 @@
       transform: translate(-50%, -50%);
       width: 90%;
       height: 90%;
-      max-width: 1920px; /* Set maximum width to match the screen resolution */
-      max-height: 1080px; /* Set maximum height to match the screen resolution */
+      max-width: 1920px;
+      max-height: 1080px;
       background-color: #333;
       padding: 20px;
       border-radius: 8px;
@@ -65,18 +62,15 @@
 <body>
   <div id="gameContainer"></div>
 
-  <!-- Fullscreen button -->
   <div class="fullscreen-button" onclick="toggleFullscreen()">
     Fullscreen
   </div>
 
-  <!-- Back to home button -->
   <div class="back-button" onclick="goToHomePage()">
     Back to Home
   </div>
 
   <script>
-    // Function to toggle fullscreen mode
     function toggleFullscreen() {
       var element = document.documentElement;
 
@@ -103,16 +97,13 @@
       }
     }
 
-    // Function to navigate back to the home page
     function goToHomePage() {
       window.location.href = './games.html';
     }
 
-    // Get the game URL from the query parameter
     const urlParams = new URLSearchParams(window.location.search);
     const gameUrl = urlParams.get('game');
 
-    // Load the game within the gameContainer div
     if (gameUrl) {
       const gameContainer = document.getElementById('gameContainer');
       const iframe = document.createElement('iframe');
