@@ -6,7 +6,7 @@
 # Quick Deployments
 [![Run on Replit](https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/master/buttons/remade/replit.svg)](https://replit.com/github/z1g-project/terbium-v2)
 [![Run on Cyclic](https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/master/buttons/official/cyclic.svg)](https://app.cyclic.sh/api/app/deploy/z1g-project/Terbium)
-[![Deploy to Cloudflare](https://www.simpleimageresizer.com/_uploads/photos/7b3e1dae/cloudflare_pages_126x29.png)](https://github.com/z1g-project/Terbium/wiki/Deploy-to-Cloudflare-Pages)
+[![Deploy to Cloudflare](https://raw.githubusercontent.com/z1g-project/terbium/main/static/resources/cflogo.png)](https://github.com/z1g-project/Terbium/wiki/Deploy-to-Cloudflare-Pages)
 
 # Description
 
