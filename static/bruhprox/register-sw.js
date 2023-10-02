@@ -1,5 +1,5 @@
 "use strict";
-const stockSW = "/bp/sw.js";
+const stockSW = "/bruhprox/bp/sw.js";
 
 const swAllowedHostnames = ["localhost", "127.0.0.1"];
 
