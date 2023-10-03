@@ -40,7 +40,7 @@
       });
     }
   
-    updateBatteryStatus();
+    setInterval(1000, updateBatteryStatus())
   
     navigator.getBattery().then(function (battery) {
       battery.addEventListener("levelchange", updateBatteryStatus);
@@ -96,7 +96,7 @@
                 <h5 class="timeT" id="time"></h5>
             </div>
             <div class="battery" style="position: relative; font-size: 21px; color: var(--shell-color); transition: ease 0.3s; z-index: 9; height: 100%; top: 16%;">
-                <h5 id="bat-text">noAPI</h5>
+                <h5 id="bat-text"></h5>
             </div>            
             <div class="showDesk windowsShown" id="showDesk" title="Show Desktop"></div>
         </div>
