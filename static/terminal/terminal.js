@@ -157,6 +157,70 @@ command.addEventListener("keydown", (e) => {
                 <div class="linebreak"></div>
             `;
         }
+        if (command.textContent.startsWith("neofetch")) {
+            let cpuInfo = 'CPU: Not available';
+            if (navigator.hardwareConcurrency) {
+                cpuInfo = `CPU: ${navigator.hardwareConcurrency} cores`;
+            }
+        
+            let gpuInfo = 'GPU: Not available';
+            if (navigator.gpu && navigator.gpu.name) {
+                gpuInfo = 'GPU: ' + navigator.gpu.name;
+            }
+        
+            const memoryInfo = `Memory: ${Math.round(performance.memory.usedJSHeapSize / (1024 * 1024))}MiB / ${Math.round(performance.memory.jsHeapSizeLimit / (1024 * 1024))}MiB`;
+        
+            const formatUptime = (uptimeInSeconds) => {
+                const hours = Math.floor(uptimeInSeconds / 3600);
+                const minutes = Math.floor((uptimeInSeconds % 3600) / 60);
+                const seconds = uptimeInSeconds % 60;
+                return `${hours}h ${minutes}m ${seconds}s`;
+            };
+        
+            const uptimeStart = performance.timing.navigationStart;
+            const currentTime = performance.now();
+            const uptimeInSeconds = (currentTime - uptimeStart) / 1000;
+            const uptimeInfo = 'Uptime: ' + formatUptime(uptimeInSeconds);
+        
+            const logo = `
+           TTTTTTTTTTTBBBBBBBBBB
+           T:::::::::TB:::::::::B
+           T:::::::::TB:::::::::B
+           T:::::TT:::::BB:::::B
+           TTTTTT  T:::::T  B::::B
+                   T:::::T  B::::B
+                   T:::::T  B::::B
+                   T:::::T  B:::::BBBBBB
+                   T:::::T  B:::::::::B
+                   T:::::T  B:::::BBBBBB
+                   T:::::T  B::::B
+                   T:::::T  B::::B
+                   T:::::T  B::::B
+                 TT:::::::TTBB:::::B
+                 T:::::::::TB:::::::::B
+                 T:::::::::TB:::::::::B
+                 TTTTTTTTTTTBBBBBBBBBB
+            `;
+        
+            const neofetchOutput = `
+            ${logo}
+            <br>
+            ${cpuInfo}
+            <br>
+            ${gpuInfo}
+            <br>
+            ${memoryInfo}
+            <br>
+            OS: TerbiumOS v1.45.2 LTS
+            <br>
+            ${uptimeInfo}
+            `;
+        
+            output.innerHTML = `
+            <p>${neofetchOutput}</p>
+            <div class="linebreak"></div>
+            `;
+        }                     
         if(command.textContent.split(" ")[0] === "-h") {
             if(command.textContent.split(" ")[1]) {
                 if(availableCommands.includes(command.textContent.split(" ")[1])) {

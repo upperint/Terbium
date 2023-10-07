@@ -1765,7 +1765,12 @@ class WIN {
         });
         switch(os) {
             case "false":
-                framew.src = "sw" + "/" + xor.encode(link);
+                if (localStorage.getItem('useDynamic', 'true')) {
+                    console.log('Using Dynamic')
+                    framew.src = "dyn" + "/" + xor.encode(link);
+                } else {
+                    framew.src = "sw" + "/" + xor.encode(link);
+                }               
                 break;
             case "true":
                 framew.src = link;

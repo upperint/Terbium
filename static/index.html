@@ -19,6 +19,10 @@
               navigator.serviceWorker.register('/sw.js', {
                   scope: '/sw/',
               });
+
+              navigator.serviceWorker.register('/dynsw.js', {
+                  scope: '/dyn/',
+              });
             };
         </script>
     <script>
@@ -56,28 +60,7 @@
                 font-size: 21px;
                 color: var(--shell-color);
                 transition: ease 0.3s;
-            }
-        
-            @media (max-width: 768px) {
-                .battery {
-                    left: 42%;
-                }
-            }
-        
-            @media (min-width: 769px) {
-                .battery {
-                    left: 42.2%;
-                }
-            }
-            @media (min-width: 1000px) {
-                .battery {
-                    left: 42.6%;
-                }
-            }
-            @media (min-width: 1900px) {
-                .battery {
-                    left: 45%;
-                }
+                left: 42%
             }
         </style>        
     </head>
