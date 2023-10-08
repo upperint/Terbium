@@ -491,11 +491,13 @@ if(localStorage.getItem("pass") === "none") {
     login.checked = true;
 }
 
-if(localStorage.getItem("useDynamic") === "false") {
-    usedynamic.checked = false;
-} else if(localStorage.getItem("useDynamic") != "true") {
+const dynVal = localStorage.getItem("useDynamic");
+
+if (dynVal === "true") {
     usedynamic.checked = true;
-}
+  } else {
+    usedynamic.checked = false;
+  }
 
 function addLogoutButton() {
     const logoutHolder = document.createElement("div");
