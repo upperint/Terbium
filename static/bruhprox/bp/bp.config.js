@@ -1,8 +1,7 @@
 self.__uv$config = {
   prefix: "/bruhprox/bp/service/",
   bare: [
-    "https://tomp.app/",
-    "https://flow-works.me/bare/"
+    "https://server.flow-works.me/bare/"
   ],
   encodeUrl: Ultraviolet.codec.xor.encode,
   decodeUrl: Ultraviolet.codec.xor.decode,
