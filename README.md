@@ -1,25 +1,31 @@
 <p align="center"><img src="https://raw.githubusercontent.com/z1g-project/terbium/main/static/resources/terbium.png" height="200">
 </p>
 
-# TerbiumOS Rewrite Edition
+# TerbiumOS for Cloudflare Pages / Localhost
 
-# Quick Deployments
-[![Run on Replit](https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/master/buttons/remade/replit.svg)](https://replit.com/github/z1g-project/terbium-v2)
-[![Run on Cyclic](https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/master/buttons/official/cyclic.svg)](https://app.cyclic.sh/api/app/deploy/z1g-project/Terbium)
-[![Deploy to Cloudflare](https://raw.githubusercontent.com/z1g-project/terbium/main/static/resources/cflogo.png)](https://github.com/z1g-project/Terbium/wiki/Deploy-to-Cloudflare-Pages)
 
 # Description
 
-- Terbium is a easy to use webOS that runs on NodeJS very smoothly and is free to deploy to replit using the replit version *UPDATE Heroku support is being droppeded since the free dyno period is over.
-- BruhProx and Ultraviolet scripts are included
+This is a reworked version of the z1g project's version, making it more akin to the original.
  
 # Setup Guide
 
- If your doing this on Replit use the quick deployment button above. If your usinng a custom server or something that requires manual setup heres what to do
+### If using localhost:
 
-- First (if not already detected) configure node.js to run: npm run start and it should detect the index.js file that is in the directory your using within the /static/ folder is all the other files
-- Second Make sure your website is up and running
-- Then your done!
+Download from [code button] --> [download zip].
+Unzip and open folder in cmd/terminal.
+If not installed, install NodeJS NPM.
+Run `npm install && npm start`
+
+### Alternatively, if you want to host Terbium as a website:
+
+Fork this repository and create a Cloudflare Pages account.
+Open Cloudflare Pages website and go to the pages section.
+Select create page and click on connect to git.
+Once connected, select your fork of this repository.
+In the setup settings, make sure **build command** is empty.
+Also, set **output directory** to `static/`
+Then enjoy!
    
 # Images
 
@@ -28,5 +34,4 @@
 # Credits
 
  Creator - SNOOT
- Modifiers - z1g project
-(C) Copyright 2021-2023 z1g Project
+ Modifiers - z1g project & upperint
